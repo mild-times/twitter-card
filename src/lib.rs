@@ -6,7 +6,7 @@
 
 //! ## Example
 //! ```rust
-//! use twitter_card::Summary;
+//! use twitter_card::{Summary, TwitterCard};
 //!
 //! let card = Summary::builder()
 //!   .site("@flickr")

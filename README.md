@@ -11,7 +11,7 @@ Generate HTML for Twitter Card integration.
 ## Examples
 __Basic usage__
 ```rust
-use twitter_card::Summary;
+use twitter_card::{Summary, TwitterCard};
 
 let card = Summary::builder()
   .site("@flickr")
