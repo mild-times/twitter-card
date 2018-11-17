@@ -3,7 +3,7 @@ use super::*;
 /// Create a player card.
 ///
 /// Player cards allow rich media to be embedded on Twitter. This includes, but
-/// is not limited to, autio clips and videos.
+/// is not limited to, audio clips and videos.
 ///
 /// [Read more](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card)
 #[derive(Debug, Clone)]
