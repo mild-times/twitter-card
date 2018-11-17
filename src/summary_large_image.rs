@@ -1,6 +1,6 @@
 use super::*;
 
-/// Create a summary card.
+/// Create a summary with large image card.
 #[derive(Debug, Clone)]
 pub struct SummaryLargeImage {
   strings: Vec<String>,
