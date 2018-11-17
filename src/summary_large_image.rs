@@ -2,15 +2,15 @@ use super::*;
 
 /// Create a summary card.
 #[derive(Debug, Clone)]
-pub struct Summary {
+pub struct SummaryLargeImage {
   strings: Vec<String>,
 }
 
-impl Summary {
+impl SummaryLargeImage {
   /// Create a new instance.
   pub fn builder() -> Self {
     Self {
-      strings: vec![create_card("summary")],
+      strings: vec![create_card("summary_large_image")],
     }
   }
 
@@ -33,6 +33,13 @@ impl Summary {
   #[inline]
   pub fn creator_id(mut self, content: &str) -> Self {
     self.strings.push(create_creator_id(content));
+    self
+  }
+
+  /// @username of content creator.
+  #[inline]
+  pub fn creator(mut self, content: &str) -> Self {
+    self.strings.push(create_creator(content));
     self
   }
 
@@ -77,7 +84,7 @@ impl Summary {
   }
 }
 
-impl TwitterCard for Summary {
+impl TwitterCard for SummaryLargeImage {
   #[inline]
   fn build(self) -> String {
     self.strings.join("\n")

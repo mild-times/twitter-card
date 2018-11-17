@@ -25,8 +25,10 @@
 //! ```
 
 mod summary;
+mod summary_large_image;
 
 pub use crate::summary::Summary;
+pub use crate::summary_large_image::SummaryLargeImage;
 
 /// Twitter Card.
 pub trait TwitterCard {
@@ -63,16 +65,6 @@ pub fn create_site(content: &str) -> String {
 #[inline]
 pub fn create_site_id(content: &str) -> String {
   create("twitter:site:id", content)
-}
-
-/// Create a Twitter creator tag.
-///
-/// @username of content creator.
-///
-/// _Used with summary_large_image cards._
-#[inline]
-pub fn create_creator(content: &str) -> String {
-  create("twitter:creator", content)
 }
 
 /// Create a Twitter description tag.
@@ -135,6 +127,26 @@ pub fn create_image_alt(content: &str) -> String {
     "Image alt has a maximum of 420 characters"
   );
   create("twitter:image:alt", content)
+}
+
+/// Create a Twitter creator id tag.
+///
+/// Twitter user ID of content creator.
+///
+/// _Used with summary, summary_large_image cards_
+#[inline]
+pub fn create_creator_id(content: &str) -> String {
+  create("twitter:creator:id", content)
+}
+
+/// Create a Twitter creator tag.
+///
+/// @username of content creator.
+///
+/// _Used with summary_large_image cards._
+#[inline]
+pub fn create_creator(content: &str) -> String {
+  create("twitter:creator", content)
 }
 
 /// Create a Twitter player tag.
