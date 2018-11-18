@@ -11,7 +11,7 @@ pub struct Player {
   strings: Vec<String>,
 }
 
-impl Summary {
+impl Player {
   /// Create a new instance.
   pub fn builder() -> Self {
     Self {
@@ -83,7 +83,7 @@ impl Summary {
 
   /// HTTPS URL of player iframe
   #[inline]
-  pub fn player(mut selfcontent: &str) -> Self {
+  pub fn player(mut self, content: &str) -> Self {
     self.strings.push(create_player(content));
     self
   }

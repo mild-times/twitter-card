@@ -54,7 +54,7 @@ impl App {
 
   /// Name of your iPhone app.
   #[inline]
-  pub fn app_name_iphone(mut self, content: &str) -> String {
+  pub fn app_name_iphone(mut self, content: &str) -> Self {
     self.strings.push(create_app_name_iphone(content));
     self
   }

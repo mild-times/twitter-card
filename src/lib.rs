@@ -4,6 +4,8 @@
 #![deny(missing_docs)]
 #![cfg_attr(test, deny(warnings))]
 
+//! Generate HTML for Twitter Card integration.
+//!
 //! ## Example
 //! ```rust
 //! use twitter_card::{Summary, TwitterCard};
@@ -24,9 +26,13 @@
 //! <meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
 //! ```
 
+mod app;
+mod player;
 mod summary;
 mod summary_large_image;
 
+pub use crate::app::App;
+pub use crate::player::Player;
 pub use crate::summary::Summary;
 pub use crate::summary_large_image::SummaryLargeImage;
 
