@@ -1,5 +1,5 @@
-extern crate twitter_card;
 extern crate failure;
+extern crate twitter_card;
 
 use failure::Error;
 
