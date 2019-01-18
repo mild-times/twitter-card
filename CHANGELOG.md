@@ -1,10 +1,10 @@
 ## 2018-11-18, Version 1.0.1
 ### Commits
-- [[`b04dd4aefb`](https://github.com/chooxide/twitter-card/commit/b04dd4aefb3eebc4a5cfa65f0367862b38611f2c)] (cargo-release) version 1.0.1 (Yoshua Wuyts)
-- [[`64667356f4`](https://github.com/chooxide/twitter-card/commit/64667356f4e65a57fe508e0d65e8768e4d85f7bb)] fix missing apis (Yoshua Wuyts)
-- [[`040b4a0c97`](https://github.com/chooxide/twitter-card/commit/040b4a0c97f04655da13c15b6c0a274979cf9c5a)] cargo fmt (Yoshua Wuyts)
-- [[`616ca0c980`](https://github.com/chooxide/twitter-card/commit/616ca0c9808cbb0369dd9f3c5c1a2b187ac43580)] Fix typo (#1) (Jan-Erik Rediger)
-- [[`8989f074b9`](https://github.com/chooxide/twitter-card/commit/8989f074b9768bbd0f348e126e493edb424a5ec1)] Update changelog (Yoshua Wuyts)
+- [[`b04dd4aefb`](https://github.com/rust-net-web/twitter-card/commit/b04dd4aefb3eebc4a5cfa65f0367862b38611f2c)] (cargo-release) version 1.0.1 (Yoshua Wuyts)
+- [[`64667356f4`](https://github.com/rust-net-web/twitter-card/commit/64667356f4e65a57fe508e0d65e8768e4d85f7bb)] fix missing apis (Yoshua Wuyts)
+- [[`040b4a0c97`](https://github.com/rust-net-web/twitter-card/commit/040b4a0c97f04655da13c15b6c0a274979cf9c5a)] cargo fmt (Yoshua Wuyts)
+- [[`616ca0c980`](https://github.com/rust-net-web/twitter-card/commit/616ca0c9808cbb0369dd9f3c5c1a2b187ac43580)] Fix typo (#1) (Jan-Erik Rediger)
+- [[`8989f074b9`](https://github.com/rust-net-web/twitter-card/commit/8989f074b9768bbd0f348e126e493edb424a5ec1)] Update changelog (Yoshua Wuyts)
 
 ### Stats
 ```diff
@@ -20,11 +20,11 @@
 
 ## 2018-11-17, Version 1.0.0
 ### Commits
-- [[`62da38ba71`](https://github.com/chooxide/twitter-card/commit/62da38ba71a679a5ab799216aa66a25cc97595a5)] (cargo-release) version 1.0.0 (Yoshua Wuyts)
-- [[`19eabf0fae`](https://github.com/chooxide/twitter-card/commit/19eabf0faefd25edfb81ba622793907975aa54f7)] app card + finalize (Yoshua Wuyts)
-- [[`cb8cb958fe`](https://github.com/chooxide/twitter-card/commit/cb8cb958feed5994370896b61233d0eae3d4a5ff)] player (Yoshua Wuyts)
-- [[`5a9a45993e`](https://github.com/chooxide/twitter-card/commit/5a9a45993e2d3b3dfe00df38a518f6db66fb57d4)] summary large image (Yoshua Wuyts)
-- [[`7ac8b97875`](https://github.com/chooxide/twitter-card/commit/7ac8b97875c766b8d858c696bace36815fd70709)] init (Yoshua Wuyts)
+- [[`62da38ba71`](https://github.com/rust-net-web/twitter-card/commit/62da38ba71a679a5ab799216aa66a25cc97595a5)] (cargo-release) version 1.0.0 (Yoshua Wuyts)
+- [[`19eabf0fae`](https://github.com/rust-net-web/twitter-card/commit/19eabf0faefd25edfb81ba622793907975aa54f7)] app card + finalize (Yoshua Wuyts)
+- [[`cb8cb958fe`](https://github.com/rust-net-web/twitter-card/commit/cb8cb958feed5994370896b61233d0eae3d4a5ff)] player (Yoshua Wuyts)
+- [[`5a9a45993e`](https://github.com/rust-net-web/twitter-card/commit/5a9a45993e2d3b3dfe00df38a518f6db66fb57d4)] summary large image (Yoshua Wuyts)
+- [[`7ac8b97875`](https://github.com/rust-net-web/twitter-card/commit/7ac8b97875c766b8d858c696bace36815fd70709)] init (Yoshua Wuyts)
 
 ### Stats
 ```diff

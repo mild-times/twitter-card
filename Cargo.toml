@@ -2,7 +2,7 @@
 name = "twitter-card"
 version = "1.0.1"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/chooxide/twitter-card"
+repository = "https://github.com/rust-net-web/twitter-card"
 documentation = "https://docs.rs/twitter-card"
 description = "Generate HTML for Twitter Card integration."
 keywords = ["twitter", "card", "opengraph", "social", "meta"]
