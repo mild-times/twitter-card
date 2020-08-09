@@ -55,14 +55,14 @@ look at some of these issues:
 
 [1]: https://img.shields.io/crates/v/twitter-card.svg?style=flat-square
 [2]: https://crates.io/crates/twitter-card
-[3]: https://img.shields.io/travis/rust-net-web/twitter-card/master.svg?style=flat-square
-[4]: https://travis-ci.org/rust-net-web/twitter-card
+[3]: https://img.shields.io/travis/http-rs/twitter-card/main.svg?style=flat-square
+[4]: https://travis-ci.org/http-rs/twitter-card
 [5]: https://img.shields.io/crates/d/twitter-card.svg?style=flat-square
 [6]: https://crates.io/crates/twitter-card
 [7]: https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square
 [8]: https://docs.rs/twitter-card
 
-[releases]: https://github.com/rust-net-web/twitter-card/releases
-[contributing]: https://github.com/rust-net-web/twitter-card/blob/master.github/CONTRIBUTING.md
-[good-first-issue]: https://github.com/rust-net-web/twitter-card/labels/good%20first%20issue
-[help-wanted]: https://github.com/rust-net-web/twitter-card/labels/help%20wanted
+[releases]: https://github.com/http-rs/twitter-card/releases
+[contributing]: https://github.com/http-rs/twitter-card/blob/main.github/CONTRIBUTING.md
+[good-first-issue]: https://github.com/http-rs/twitter-card/labels/good%20first%20issue
+[help-wanted]: https://github.com/http-rs/twitter-card/labels/help%20wanted
